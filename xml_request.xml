@@ -1,0 +1,25 @@
+<RecordQueryRequest>
+   <view>
+       <fieldId>NAME</fieldId>
+       <fieldId>BIRTHDATE</fieldId>
+       <fieldId>EMAIL</fieldId>
+	   <fieldId>PHONES</fieldId>
+	   <fieldId>HEIGHT</fieldId>
+	   <fieldId>WEIGHT</fieldId>
+
+
+
+   </view>
+   <sort>
+       <sortField>
+           <fieldId>@updatedDate</fieldId>
+           <direction>DESC</direction>
+       </sortField>
+   </sort>
+   <filter>
+      <updatedDate>
+           <from>2016-08-17T00:00:00Z</from>
+           <to>2023-09-02T23:59:59Z</to>
+      </updatedDate>
+   </filter>
+</RecordQueryRequest>
